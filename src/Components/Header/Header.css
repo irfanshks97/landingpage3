@@ -1,0 +1,23 @@
+/*.container-fluid {
+  background-color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+}*/
+
+:root {
+  box-sizing: border-box;
+  margin: 0;
+}
+.header {
+  background-color: #fff;
+}
+.unorderlist {
+  margin-bottom: 0px !important;
+}
+
+.heading {
+  color: #000;
+  font-weight: 500;
+  font-size: 14px;
+}

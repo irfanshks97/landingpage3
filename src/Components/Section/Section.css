@@ -1,0 +1,90 @@
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+.paragraph {
+  font-size: 12px;
+}
+
+.content {
+  font-size: 12px;
+  line-height: 1.35rem;
+}
+
+form {
+  background-color: rgba(243, 245, 246, 255);
+  width: 100%;
+}
+
+form .form-control {
+  border-radius: 0;
+  padding: 6px;
+  font-size: 10px;
+}
+
+form .form-control:focus {
+  box-shadow: none;
+}
+
+form .form-select {
+  border-radius: 0;
+  padding-left: 6px;
+  font-size: 10px;
+}
+
+form .form-select:focus {
+  box-shadow: none;
+  border: 1px solid rgb(176, 180, 180);
+  box-shadow: 0px 4px 8px rgba(176, 180, 180, 0.5);
+}
+
+.button {
+  font-size: 13px;
+  background-color: #000e92;
+  color: #fff;
+  width: 150px;
+  padding: 8px;
+  text-align: center;
+}
+.button:hover {
+  background-color: #0414ab;
+}
+
+.required-wrapper {
+  position: relative;
+}
+.required-wrapper::after {
+  content: "*";
+  color: rgba(6, 21, 149, 255);
+  position: absolute;
+  right: -10px;
+  top: 0;
+}
+@media screen and (max-width: 997px) {
+  form {
+    width: 300px;
+  }
+  .button {
+    font-size: 11px;
+    background-color: #000e92;
+    color: #fff;
+    width: 120px;
+    padding: 5px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 997px) {
+  .content p {
+    font-size: 15px;
+  }
+  .paragraph {
+    font-size: 15px;
+    padding: 15px 0 15px 0px;
+  }
+  form {
+    width: 500px;
+    height: auto;
+  }
+}
